@@ -12,6 +12,7 @@ dependencies:
   file_saver: ^0.1.1
   flutter:
     sdk: flutter
+  flutter_native_splash: ^2.2.16
   flutter_pdfview: ^1.2.5
   get: ^4.6.5
   logger: ^1.1.0
@@ -42,3 +43,13 @@ flutter_icons:
   ios: true
   image_path: "assets/images/logo.png"
   min_sdk_android: 21
+
+
+flutter_native_splash:
+  color: "#E0E0E0"
+  image: assets/images/splash.png
+  branding: assets/images/app-name.png
+  android_12:
+    image: assets/images/splash.png
+    color: "#E0E0E0"
+    branding: assets/images/app-name.png
