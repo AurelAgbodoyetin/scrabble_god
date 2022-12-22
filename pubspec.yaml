@@ -18,10 +18,11 @@ dependencies:
   logger: ^1.1.0
   package_info_plus: ^3.0.2
   path_provider: ^2.0.11
+  url_launcher: ^6.1.7
 
 dev_dependencies:
-  flutter_lints: ^2.0.0
   flutter_launcher_icons: ^0.11.0
+  flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
 
@@ -37,13 +38,11 @@ flutter:
         - asset: assets/fonts/Ubuntu-Regular.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
-
 flutter_icons:
   android: "launcher_icon"
   ios: true
   image_path: "assets/images/logo.png"
   min_sdk_android: 21
-
 
 flutter_native_splash:
   color: "#E0E0E0"

@@ -47,7 +47,7 @@ class AboutScreen extends StatelessWidget {
                       "2. Vous suggérer des mots valides au Scrabble 😈. Entrez entre 2 et 12 lettres "
                       "et Scrabble God vous affichera tous les cpups possible avec les lettres"
                       " entrées. Vous n'aurez qu'à rentrer votre mot dans dans la barre "
-                      "de recherche de l'onglet 'Composer mot' et regarder le résultat. Vous"
+                      "de recherche de l'onglet 'Composer mot' et regarder le résultat"
                       " Vous pouvez imposer un début et une fin à vos mots en "
                       "remplissant les champs 'Lettre initiale' et 'Lettre finale'. Ces deux "
                       "derniers champs ne sont pas requis pour une recherche.\nVous pouvez insérer des jokers avec "

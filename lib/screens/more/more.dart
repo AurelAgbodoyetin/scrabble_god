@@ -4,6 +4,7 @@ import 'package:scrabble_god/controller/core/instances.dart';
 import 'package:scrabble_god/screens/about/about.dart';
 import 'package:scrabble_god/screens/pdf/pdf.dart';
 import 'package:scrabble_god/utils/button.dart';
+import 'package:scrabble_god/utils/urls.dart';
 
 class MoreScreen extends StatelessWidget {
   const MoreScreen({super.key});
@@ -65,6 +66,15 @@ class MoreScreen extends StatelessWidget {
                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
                 ),
               );
+            },
+          ),
+          const SizedBox(height: 10.0),
+          CustomButton(
+            text: "Nous contacter",
+            bgColor: Colors.white,
+            textColor: kTextColor,
+            onTap: () {
+              contactUs();
             },
           ),
           const SizedBox(height: 10.0),
