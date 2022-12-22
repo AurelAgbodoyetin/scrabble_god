@@ -17,7 +17,7 @@ class DataController extends GetxController {
   late PackageInfo packageInfo;
 
   Future<void> load() async {
-    data = await rootBundle.loadString('assets/db.txt');
+    data = await rootBundle.loadString('assets/documents/db.txt');
     rulesPath = await getPdfPath("rules.pdf");
     scoresheetPath = await getPdfPath("score_sheets.pdf");
     packageInfo = await PackageInfo.fromPlatform();
@@ -77,7 +77,7 @@ class DataController extends GetxController {
     try {
       var dir = await getApplicationDocumentsDirectory();
       File file = File("${dir.path}/$path");
-      var data = await rootBundle.load("assets/$path");
+      var data = await rootBundle.load("assets/documents/$path");
       var bytes = data.buffer.asUint8List();
       await file.writeAsBytes(bytes, flush: true);
       completer.complete(file);
